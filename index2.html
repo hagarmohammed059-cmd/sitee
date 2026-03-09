@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>وحدة صندوق مكافحة وعلاج الإدمان - السويس</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+:root{
+--primary:#0b3d91;
+--gold:#d4af37;
+--gold-light:#f5e6b8;
+--bg-light:#f5f7fb;
+--white:#ffffff;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:var(--bg-light);
+color:var(--primary);
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:var(--primary);
+height:80px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 20px;
+z-index:1000;
+}
+
+header img{
+height:60px;
+transition:.3s;
+}
+
+header img:hover{
+transform:scale(1.1);
+}
+
+.news-bar{
+position:fixed;
+top:80px;
+width:100%;
+background:var(--gold);
+color:var(--primary);
+height:40px;
+display:flex;
+align-items:center;
+overflow:hidden;
+padding-left:10px;
+font-weight:700;
+z-index:999;
+}
+
+.news-bar span{
+white-space:nowrap;
+display:inline-block;
+padding-left:100%;
+animation:scrollNews 40s linear infinite;
+}
+
+@keyframes scrollNews{
+0%{transform:translateX(0)}
+100%{transform:translateX(-100%)}
+}
+
+section{
+max-width:1200px;
+margin:140px auto 60px;
+padding:50px 20px;
+}
+
+.section-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.section-header h2{
+font-size:32px;
+border-bottom:4px solid var(--gold);
+display:inline-block;
+padding-bottom:8px;
+}
+
+.hero{
+background:linear-gradient(135deg,var(--primary),#051a3a);
+color:white;
+text-align:center;
+padding:180px 20px 120px;
+animation:fadeIn 2s ease-in;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+color:var(--gold-light);
+margin-bottom:20px;
+}
+
+.hero a{
+text-decoration:none;
+color:var(--primary);
+background:var(--gold);
+padding:12px 20px;
+margin:5px;
+display:inline-block;
+border-radius:8px;
+font-weight:700;
+transition:.3s;
+}
+
+.hero a:hover{
+transform:scale(1.05);
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:.3s;
+position:relative;
+overflow:hidden;
+}
+
+.card::after{
+content:"";
+position:absolute;
+top:0;left:0;width:100%;height:100%;
+background:var(--gold-light);
+opacity:0;
+transition:.4s;
+}
+
+.card:hover::after{
+opacity:0.05;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:var(--primary);
+margin-bottom:10px;
+}
+
+.counter{
+font-size:30px;
+font-weight:900;
+color:var(--primary);
+}
+
+.map{
+width:100%;
+height:350px;
+border:0;
+border-radius:10px;
+margin-top:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:30px;
+left:30px;
+background:#25D366;
+color:white;
+width:65px;
+height:65px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:32px;
+text-decoration:none;
+transition:.3s;
+}
+
+.whatsapp:hover{
+transform:scale(1.1);
+}
+
+footer{
+background:var(--primary);
+color:white;
+text-align:center;
+padding:40px 20px;
+border-top:6px solid var(--gold);
+margin-top:60px;
+}
+
+.volunteer{
+background:#d4ebf7;
+padding:30px;
+border-radius:12px;
+text-align:center;
+}
+
+.volunteer a{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:var(--gold);
+color:var(--primary);
+border-radius:8px;
+text-decoration:none;
+font-weight:700;
+transition:.3s;
+}
+
+.volunteer a:hover{
+transform:scale(1.05);
+}
+
+@keyframes fadeIn{
+0%{opacity:0}
+100%{opacity:1}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo2.jpeg" alt="وحدة السويس">
+<img src="logo1.jpeg" alt="صندوق مكافحة الإدمان">
+</header>
+
+<div class="news-bar">
+<span>
+الدكتور عمرو عثمان يتوجه إلى فيينا • نتائج تحليل مشاهد التدخين والتعاطي في رمضان 2026 • مسلسل "على كلاي" يسلط الضوء على الخط الساخن 16023 • المسلسلات الأعلى في مشاهد التدخين: سوا سوا – الكينج – هي كيميا • وزيرة التضامن تشهد تخريج دفعة المتعافيات • المتعافون يهدون وزيرة التضامن فانوس رمضان
+</span>
+</div>
+
+<section class="hero">
+<h1>وحدة السويس - صندوق مكافحة وعلاج الإدمان</h1>
+<p>خدمات العلاج والمشورة والدعم النفسي مجانية وفي سرية تامة. اتصل بالخط الساخن 16023 أو زور العيادة الخارجية الرسمية.</p>
+<a href="tel:16023">اتصل بالخط الساخن 16023</a>
+<a href="https://maps.app.goo.gl/zvNT32sxGXH9DVan8" target="_blank">موقع العيادة</a>
+</section>
+
+<section id="about">
+<div class="section-header"><h2>عن الصندوق</h2></div>
+<div class="cards">
+<div class="card">
+<p>صندوق مكافحة وعلاج الإدمان التابع لرئاسة مجلس الوزراء يعمل على تنفيذ السياسات الوطنية للوقاية من المخدرات وتقديم العلاج المجاني للمتعاطين.</p>
+</div>
+<div class="card">
+<p>الحملات التوعوية تستهدف الشباب والأسر والطلاب في مختلف المحافظات لنشر الوعي بمخاطر المخدرات وتصحيح المفاهيم المغلوطة.</p>
+</div>
+<div class="card">
+<p>شبكة مراكز العزيمة المتخصصة تقدم الدعم النفسي وإعادة التأهيل والدمج المجتمعي للمتعافين.</p>
+</div>
+<div class="card">
+<p>📞 الخط الساخن 16023 – متاح 24 ساعة، العلاج مجاني وسري تماماً.</p>
+</div>
+</div>
+</section>
+
+<section id="campaign">
+<div class="section-header"><h2>حملة أنت قادر تتخطى</h2></div>
+<div class="cards">
+<div class="card">
+<p>حققت الحملة أكثر من 7.5 مليون مشاهدة خلال 3 أيام، لتؤكد أن التعافي ممكن والبداية الجديدة دائماً متاحة.</p>
+</div>
+<div class="card">
+<p class="counter">أنت قادر تتغلب على الماضي وتبدأ من جديد 💪<br>أنت أقوى من المخدرات</p>
+</div>
+</div>
+</section>
+
+<section id="clinic">
+<div class="section-header"><h2>العيادة الخارجية الرسمية بمحافظة السويس</h2></div>
+<div class="cards">
+<div class="card"><h3>أول وأكبر عيادة خارجية</h3><p>العيادة الرسمية الوحيدة المعتمدة بمحافظة السويس للخط الساخن 16023.</p></div>
+<div class="card"><h3>مواعيد العمل</h3><p>الأحد والثلاثاء من 10 صباحاً حتى 2 ظهراً</p></div>
+<div class="card"><h3>الخدمات</h3><p>تقييم الحالات – المشورة – متابعة العلاج – الدعم النفسي</p></div>
+</div>
+<iframe class="map" src="https://maps.google.com/maps?q=29.966834,32.549806&z=15&output=embed"></iframe>
+</section>
+
+<section id="myths">
+<div class="section-header"><h2>تصحيح المفاهيم</h2></div>
+<div class="cards">
+<div class="card"><h3>قالوا</h3><p>المخدرات تساعد على التركيز.</p></div>
+<div class="card"><h3>الحقيقة</h3><p>المخدرات تضعف التركيز وتضر العقل والجسم.</p></div>
+<div class="card"><h3>قالوا</h3><p>لا توجد أعراض انسحاب للحشيش.</p></div>
+<div class="card"><h3>الحقيقة</h3><p>هناك أعراض انسحاب نفسية وإعتماد على المخدر، 50% من طالبي العلاج لديهم اعتمادية.</p></div>
+<div class="card"><h3>قالوا</h3><p>المخدرات تحسن الصحة النفسية.</p></div>
+<div class="card"><h3>الحقيقة</h3><p>الحشيش يسبب تقلب المزاج، الهلوسة والخلل في تقدير المسافات.</p></div>
+</div>
+</section>
+
+<section id="volunteers">
+<div class="section-header"><h2>انضم كمتطوع</h2></div>
+<div class="volunteer">
+<p>انضم إلينا وساعدنا في حملات التوعية ومساندة المتعافين.</p>
+<a href="#">انضم الآن</a>
+</div>
+</section>
+
+<section id="leadership">
+<div class="section-header"><h2>الهيكل الإداري</h2></div>
+<div class="cards">
+<div class="card"><span class="role">رئيس الوحدة</span><div class="name">أستاذ حسين غريب</div></div>
+<div class="card"><span class="role">نائب رئيس الوحدة</span><div class="name">مهندسة دنيا علاء الدين</div></div>
+<div class="card"><span class="role">رئيس لجنة التدريب</span><div class="name">د. مصطفى عزت</div></div>
+</div>
+</section>
+
+<footer>
+<p>الخط الساخن لعلاج الإدمان 16023 — متاح 24 ساعة</p>
+<p>العلاج مجاني تماماً وفي سرية تامة</p>
+<p>جميع الحقوق محفوظة © 2026</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/201095678355" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+</body>
+</html>
